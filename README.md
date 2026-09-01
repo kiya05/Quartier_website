@@ -1,3 +1,50 @@
-# Quartier_website
+# Quartier Studio — Interior Design Website
 
-Quartier Studio is a modern, responsive, and visually engaging interior design website created to showcase the studio’s design expertise, services, projects, team, testimonials, and client enquiry process. The website combines a clean luxury-inspired aesthetic with smooth animations, interactive navigation, responsive layouts, animated statistics, and user-friendly contact forms. It is built using HTML, CSS, and JavaScript, with an easy-to-understand structure so the code can be customized and expanded easily. The project is designed to create a professional digital presence for an interior design brand while providing visitors with an attractive and seamless browsing experience across desktop, tablet, and mobile devices.
+Quartier Studio is a modern, responsive interior design website created to showcase interior design services, projects, team members, testimonials, and client enquiries. The website features a premium and minimal aesthetic with smooth animations, interactive navigation, animated statistics, responsive layouts, and an attractive contact section.
+
+## ✨ Features
+
+- Responsive design for desktop, tablet and mobile
+- Modern luxury-inspired UI
+- Animated hero sections
+- Active navigation indicator
+- Scroll-reveal animations
+- Animated project/client counters
+- Projects showcase
+- Services section
+- About section with SEO-friendly content
+- Team profiles
+- Client testimonials
+- Responsive contact form
+- Start Project / CTA section
+- Animated footer
+- Easy-to-edit HTML, CSS and JavaScript
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
+- Responsive Web Design
+
+## 📁 Project Structure
+
+```text
+Quartier-Studio/
+│
+├── index.html
+├── about.html
+├── projects.html
+├── services.html
+├── team.html
+├── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+└── images/
+    └── ...
