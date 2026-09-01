@@ -1,1 +1,3 @@
 # Quartier_website
+
+Quartier Studio is a modern, responsive, and visually engaging interior design website created to showcase the studio’s design expertise, services, projects, team, testimonials, and client enquiry process. The website combines a clean luxury-inspired aesthetic with smooth animations, interactive navigation, responsive layouts, animated statistics, and user-friendly contact forms. It is built using HTML, CSS, and JavaScript, with an easy-to-understand structure so the code can be customized and expanded easily. The project is designed to create a professional digital presence for an interior design brand while providing visitors with an attractive and seamless browsing experience across desktop, tablet, and mobile devices.
