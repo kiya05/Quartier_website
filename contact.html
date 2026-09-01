@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Quartier</title>
+    <meta
+      name="description"
+      content="Talk to Quartier about your interior design or construction project."
+    />
+    <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="Assest/quartier-logo.png" type="image/x-icon">   
+   <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css"
+    />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <a class="logo" href="index.html"
+        ><img src="Assest/quartier-logo.png" alt="Quartier Interior & Construction"
+      /></a>
+      <nav class="nav-links">
+        <a class="" href="index.html">Home</a
+        ><a class="" href="about.html">About Us</a
+        ><a class="" href="projects.html">Projects</a
+        ><a class="" href="services.html">Services</a
+        ><a class="" href="team.html">Team</a
+        >
+        <a class="" href="Blog.html">Blog</a>
+        <a class="" href="contact.html">Contact</a>
+      </nav>
+      <a class="quote-btn" href="start-project.html">Start a Project →</a>
+      <button class="menu" aria-label="Open menu">☰</button>
+    </header>
+
+    <section class="page-hero">
+      <div class="container page-copy">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h1 class="page-title">Let's create your <em>space.</em></h1>
+        <p>
+          Have a project in mind? Tell us a little about it and our team will
+          get back to you.
+        </p>
+      </div>
+    </section>
+    <section class="section reveal">
+      <div class="container form-layout">
+        <div>
+          <p class="eyebrow">CONTACT QUARTIER</p>
+          <h2>Start with a <em>conversation.</em></h2>
+          <div class="contact-list">
+            <div class="contact-item">
+              <strong>Call</strong><span>+91 93116 11946</span>
+            </div>
+            <div class="contact-item">
+              <strong>Email</strong><span>info@quartierinterior.com</span>
+            </div>
+            <div class="contact-item">
+              <strong>Studio</strong
+              ><span>3rd Floor, D-92, Sector 6, Noida, Uttar Pradesh</span>
+            </div>
+          </div>
+        </div>
+        <div class="form-box">
+      
+            <div class="contact-form-wrapper">
+
+      <h2>Start Your Project</h2>
+
+      <p>
+        Fill in your details and we'll contact you soon.
+      </p>
+
+      <div class="success-message" id="successMessage">
+        Thank you! Your enquiry has been submitted successfully.
+      </div>
+
+      <!--
+        IMPORTANT:
+        Replace the email below with your receiving email address.
+      -->
+
+      <form
+        class="contact-form"
+        action="https://formsubmit.co/kirti.quartierseo@gmail.com"
+        method="POST"
+        id="contactForm"
+      >
+
+        <!-- FormSubmit settings -->
+        <input type="hidden" name="_subject"
+          value="New Website Enquiry - Quartier Studio">
+
+        <input type="hidden" name="_captcha" value="false">
+
+        <input type="hidden" name="_template" value="table">
+
+        <!-- Redirect after submission -->
+          <input type="hidden" name="_next"
+                    value="http://127.0.0.1:5501/Quartier%20Studio/thank-you.html">
+
+
+        <div class="form-row">
+
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+
+            <input
+              type="text"
+              id="name"
+              name="Name"
+              placeholder="Your name"
+              required
+            >
+          </div>
+
+
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+
+            <input
+              type="tel"
+              id="phone"
+              placeholder="+91 XXXXX XXXXX"
+              pattern="[0-9+\-\s]{10,15}"
+             name="Contact Number"
+             inputmode="numeric"
+              maxlength="15"
+            autocomplete="tel"
+             required>
+              required
+            >
+          </div>
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="email">Email Address *</label>
+
+          <input
+            type="email"
+            id="email"
+            name="Email"
+            placeholder="your@email.com"
+            required
+          >
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="service">Service *</label>
+
+          <select id="service" name="Service" required>
+
+            <option value="">Select a service</option>
+
+            <option value="Interior Design">
+              Interior Design
+            </option>
+
+            <option value="Residential Interior">
+              Residential Interior
+            </option>
+
+            <option value="Commercial Interior">
+              Commercial Interior
+            </option>
+
+            <option value="Architecture">
+              Architecture
+            </option>
+
+            <option value="Construction">
+              Construction
+            </option>
+
+            <option value="Renovation">
+              Renovation
+            </option>
+
+            <option value="Other">
+              Other
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <div class="form-row">
+
+          <div class="form-group">
+
+            <label for="budget">Approx. Budget</label>
+
+            <select id="budget" name="Budget">
+
+              <option value="">Select budget</option>
+
+              <option value="Below ₹5 Lakhs">
+                Below ₹5 Lakhs
+              </option>
+
+              <option value="₹5 - ₹10 Lakhs">
+                ₹5 - ₹10 Lakhs
+              </option>
+
+              <option value="₹10 - ₹20 Lakhs">
+                ₹10 - ₹20 Lakhs
+              </option>
+
+              <option value="₹20 - ₹50 Lakhs">
+                ₹20 - ₹50 Lakhs
+              </option>
+
+              <option value="₹50 Lakhs+">
+                ₹50 Lakhs+
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label for="location">Project Location</label>
+
+            <input
+              type="text"
+              id="location"
+              name="Project Location"
+              placeholder="e.g. Noida"
+            >
+
+          </div>
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="message">Tell Us About Your Project </label>
+
+          <textarea
+            id="message"
+            name="Message"
+            placeholder="Tell us about your project, space, requirements..."
+
+          ></textarea>
+
+        </div>
+
+
+        <button
+          type="submit"
+          class="submit-btn"
+          id="submitBtn"
+        >
+          Send Enquiry
+        </button>
+
+        <p class="form-note">
+          Your information is used only to respond to your enquiry.
+        </p>
+
+      </form>
+
+    </div>
+
+  </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="thank-you-modal" id="thankYouModal" aria-hidden="true">
+      <div
+        class="thank-you-card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="thankTitle"
+      >
+        <button class="thank-close" type="button" aria-label="Close">×</button>
+        <div class="thank-gesture" aria-hidden="true">👋</div>
+        <div class="thank-sparkles">✦ ✧ ✦</div>
+        <p class="eyebrow">MESSAGE RECEIVED</p>
+        <h2 id="thankTitle">Thank you for <em>trusting us.</em></h2>
+        <p>
+          We’re grateful you chose Quartier. Our team will review your enquiry
+          and get back to you soon.
+        </p>
+        <blockquote>
+          “Beautiful spaces begin with thoughtful conversations.”
+        </blockquote>
+        <button class="dark-btn thank-ok" type="button">
+          Wonderful, thank you ✦
+        </button>
+      </div>
+    </div> -->
+
+    <footer class="site-footer">
+      <div class="footer-glow"></div>
+      <div class="footer-inner">
+        <div class="footer-brand footer-reveal">
+          <a class="footer-logo" href="index.html"
+            ><img
+              src="Assest/quartier-logo.png"
+              alt="Quartier Interior & Construction"
+          /></a>
+          <p>
+            Thoughtful interiors and construction crafted around the way you
+            live.
+          </p>
+          <div class="social-links">
+            <a
+              href="https://www.instagram.com/quartierinterior/"
+              aria-label="Instagram"
+              >Instagram</a
+            >
+            <a
+              href="https://in.pinterest.com/QuartierNoida/"
+              aria-label="Pinterest"
+              >Pinterest</a
+            >
+            <a
+              href="https://www.houzz.in/pro/webuser-299305881"
+              aria-label="Houzz"
+              >Houzz</a
+            >
+          </div>
+        </div>
+        <div class="footer-column footer-reveal">
+          <h4>EXPLORE</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="projects.html">Projects</a>
+          <a href="team.html">Our Team</a>
+        </div>
+        <div class="footer-column footer-reveal">
+          <h4>SERVICES</h4>
+          <a href="services.html">Residential Interiors</a>
+          <a href="services.html">Commercial Interiors</a>
+          <a href="services.html">Turnkey Solutions</a>
+          <a href="services.html">Renovation</a>
+        </div>
+        <div class="footer-column footer-reveal">
+          <h4>CONTACT</h4>
+          <a href="tel:+91 93116 11946"> +91 93116 11946 </a>
+          <a href="mailto:info@quartierinterior.com" target="_blank"
+            >info@quartierinterior.com</a
+          >
+          <a href="https://share.google/uXnK1R9DCWcGQqNYV" target="_blank"
+            ><p>
+              3rd Floor, D-92,<br />
+              Sector 6, Noida (UP) 201301
+            </p></a
+          >
+          <a class="footer-cta" href="start-project.html"
+            >Start a Project <span>↗</span></a
+          >
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span
+          >© 2026 Quartier Interior & Construction. All Rights Reserved.</span
+        >
+        <div>
+          <a href="#">Privacy Policy</a><span class="divider">|</span
+          ><a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+      <button class="back-top" aria-label="Back to top">↑</button>
+    </footer>
+
+    <div class="toast"></div>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/intlTelInput.min.js"></script>
+    <script src="script.js">
+      
+    </script>
+
+    
+
+   
+  </body>
+</html>
